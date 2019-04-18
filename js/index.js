@@ -21,7 +21,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date('April 16, 2019 00:00:00').getTime();
+let countDown = new Date('April 23, 2019 00:00:00').getTime();
 x = setInterval(function() {
   let now = new Date().getTime(),
     distance = countDown - now;
@@ -39,7 +39,7 @@ var w = c.width = window.innerWidth,
   hh = h / 2,
 
   opts = {
-    strings: ['DORORO', 'EPISODE', '14'],
+    strings: ['DORORO', 'EPISODE', '15'],
     charSize: 30,
     charSpacing: 35,
     lineHeight: 40,
